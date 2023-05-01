@@ -23,5 +23,6 @@ urlpatterns = [
     path('add', add_item, name='add'),
     path('edit/<item_id>', edit_item, name='edit'),
     path('toggle/<item_id>', toggle_item, name='toggle'),
+    
 
 ]
